@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Material Login Form</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link href="css\layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<style type="text/css">
+body{background: #1E1E1E}
+</style>
+  
+</head>
+
+<body>
+<div class="bgded overlay" style="background-image:url('http://wallpapercave.com/wp/76enKL8.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1><a href="index.html">Sportify</a></h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="index1.html">Login/Sign Up</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>  
+<!-- Mixins-->
+<!-- Pen Title-->
+
+<div class="container">
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title">Login</h1>
+    <div class="input-container" id="loginResponseMsg"></div>
+    <form id="loginForm" method="post">
+      <div class="input-container">
+        <input placeholder="Email" type="email" id="loginEmail" name="loginEmail" required/>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" placeholder="Password" id="loginPassword"  name="loginPassword" required/>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button  type="submit"><span>Go</span></button>
+      </div>
+    </form>
+  </div>
+  <div class="card alt">
+    <div class="toggle"></div>
+    <h1 class="title">Register
+      <div class="close"></div>
+    </h1>
+    <form id="register_form" method="post">
+      <div class="input-container" id="signupResponseMsg"></div>
+          <div class="input-container">
+        <input type="text" placeholder="Full Name" id="uname" name="uname" />
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="email" placeholder="Email" id="uemail" name="uemail" />
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" placeholder="Password" id="upassword" name="upassword" />
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" placeholder="Confirm Password" id="uconfirmpassword" name="uconfirmpassword" />
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button type="submit"><span>Next</span></button>
+      </div>
+    </form>
+  </div>
+  
+</div>
+<div id= "contact"class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Contact</h6>
+      <p> xyabcdefz@gmail.com</p>
+      <p>abc@gmail.com</p>
+      <p>Mob No. 8475673452</p>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Find Us</h6>
+      <nav>
+        <ul class="nospace">
+          <li><a href="index.html"><i class="fa fa-lg fa-home"></i></a></li>
+          <li><a href="#">About</a></li>
+      </nav>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+      </ul>
+    </div>
+    
+    <div class="one_third">
+      <h6 class="heading">Recent Activity</h6>
+      <ul class="nospace linklist">
+        <li><a href="http://www.hindustantimes.com/football/fifa-world-cup-2018-three-reasons-behind-italy-s-qualification-apocalypse/story-DrG3BFEgfRQxLoJKOW28lN.html">Fifa World Cup 2018: Italy[&hellip;]</a></li>
+        <li><a href="http://www.goal.com/en-in/match/india-v-myanmar/report/10ggrhcqhloyp9cgq4xue2961">AFC Asian Cup 2019[&hellip;]</a></li>
+        <li><a href="http://www.goal.com/en-in/news/i-league-2017-fixtures-released-minerva-to-host-mohun-bagan/60bqbxsidjh41my2jh8h17wc3">I-League 2017</a></li>
+       
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- Portfolio-->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+  <script  src="js/index.js"></script>
+
+    <script type="text/javascript">
+      
+
+      $("#register_form").validate({
+              rules:
+                  {
+                      uname:{
+                          required: true,
+                          minlength: 4,
+                          maxlength: 50
+                      },
+                      upassword:{
+                          required: true,
+                          minlength: 8,
+                          maxlength: 15
+                      },
+                      uconfirmpassword:{
+                          required: true,
+                          equalTo: "#upassword"
+                      },
+                      uemail:{
+                          required: true,
+                          email: true
+                      }
+                  },
+
+              submitHandler: submitSignupForm
+          });
+
+       function submitSignupForm() {
+              $.ajax({
+                  type: "post",
+                  url: "register_form.php",
+                  data: {uname: $("#uname").val(), uemail: $("#uemail").val(), upassword: $("#upassword").val()},
+                  success: function (output) {
+
+                      if(output=="1"){
+                        $msg="<div class='alert alert-success' role='alert'>Signup successful.</div>";
+                      }else if(output=="2"){
+                        $msg="<div class='alert alert-danger' role='alert'>Error signing up. Try again!</div>";
+                      }else if(output=="3"){
+                        $msg="<div class='alert alert-danger' role='alert'>Email already exists.</div>";
+                      }else if(output=="4"){
+                        $msg="<div class='alert alert-danger' role='alert'>Error.</div>";
+                      }else if(output=="5"){
+                        $msg="<div class='alert alert-danger' role='alert'>Form data not received.</div>";
+                      }else{
+                        $msg="<div class='alert alert-danger' role='alert'>Error.</div>";
+                      }
+
+                      $("#signupResponseMsg").html($msg);
+
+                      if(output=="1"){
+                        window.location.href='http://localhost/sportify/index3.php';
+                      }
+                   }
+              });
+              return false;
+        }
+
+         $("#loginForm").validate({
+              rules:
+                  {
+                      loginEmail:{
+                          required: true
+                      },
+                      loginPassword:{
+                          required: true
+                      }
+                  },
+              submitHandler: submitLoginForm
+          });
+
+         function submitLoginForm() {
+              $.ajax({
+                  type: "post",
+                  url: "login_form.php",
+                  data: {loginEmail: $("#loginEmail").val(), loginPassword: $("#loginPassword").val()},
+                  success: function (output) {
+                    // alert(output);
+                      
+                      if(output=="1"){
+                        $msg="<div class='alert alert-success' role='alert'>Login successful.</div>";
+                      }else if(output=="2"){
+                        $msg="<div class='alert alert-danger' role='alert'>Wrong password.</div>";
+                      }else if(output=="3"){
+                        $msg="<div class='alert alert-danger' role='alert'>Email id doesn't exists.</div>";
+                      }else if(output=="4"){
+                        $msg="<div class='alert alert-danger' role='alert'>Error.</div>";
+                      }else if(output=="5"){
+                        $msg="<div class='alert alert-danger' role='alert'>Form data not received.</div>";
+                      }else{
+                        $msg="<div class='alert alert-danger' role='alert'>Error.</div>";
+                      }
+
+                      $("#loginResponseMsg").html($msg);
+
+                      if(output=="1"){
+                        window.location.href='http://localhost/sportify/index3.php';
+                      }
+                      
+                  }
+              });
+          }
+
+    </script>
+	
+</body>
+</html>
